@@ -1,8 +1,16 @@
 
-import './App.css'
+
+import AppRoutes from "./Routes/config";
+import {
+  
+  RouterProvider,
+} from "react-router-dom";
 function App() {
   return (
-    <h1 className='bg-red-500'>helloo</h1>
+    <div>
+    
+    <RouterProvider router={AppRoutes} />
+    </div>
   );
 }
 

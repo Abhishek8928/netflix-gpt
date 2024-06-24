@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-wrapper > input{
+    border:1px solid #ccc;
+}
+
+.input-wrapper > input:focus{
+    outline: none;
+}
+
